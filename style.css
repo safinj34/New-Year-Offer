@@ -1,6 +1,60 @@
-.banner-div{height: 400px;width: 900px;
-    background:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url('./images/Banner\ Image.png');;
-    
-    background-size: cover;display: flex;justify-content: center;align-items: center;text-align: center;opacity: 0.9;margin: 0 auto;}
-.banner-text{color: white;font-size: 30px;}
+.banner-div {
+    height: 400px;
+    width: 900px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('./images/Banner\ Image.png');
+    ;
+
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0.9;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.banner-text {
+    color: white;
+    font-size: 30px;
+}
+
+.section2 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+.section2 h2 {
+    color: black;
+    text-align: center;
+}
+
+.section2-img-div {
+    display: flex;
+    justify-content: center;
+}
+
+.section3 {
+    height: 600px;
+    width: 70%;
+    background: 
+        url(./images/Group\ 70.png) no-repeat right center,
+
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+
+        url(./images/Vectorrr.png);
+    background-size: contain, cover, cover;
+    position: relative;
+    margin: 50px auto;
+}
+
+.section3 h3,.section3 h1,.section3 p{color: white;padding-left: 100px;}
+.section3 h1{font-size: 60px;}
+.section3 div{padding-top: 100px;}
+
+.section4{width: 900px;height: 700px;margin: 0 auto;text-align: center;font-size: 50px;font-weight:800 ;}
+.section4 span{color: red;}
+.section4-div{background: linear-gradient(180deg, rgba(255, 0, 0, 0.301), rgba(255, 255, 255, 0.5));padding: 50px;border-radius: 10px;}
+.section4 button{background-color: red;color: white;padding: 10px;border-radius: 10px;border-style: none;}
