@@ -68,7 +68,7 @@
 
 .section-7-img-2{position: absolute;right: 0;}
 .section-7-img-3{position: absolute;top: 0;}
-.section-7-img-1{position: absolute;top:  450px;}
+.section-7-img-1{position: absolute;width: 1300px;bottom: 100px;}
 .section-6-img1{display: flex;gap: 20px;}
 .section-8-div-1{text-align: left;margin: 0px 300px;}
 
