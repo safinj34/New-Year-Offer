@@ -138,7 +138,7 @@ body {
 
 .section-7-div {
     position: relative;
-    margin: 0px 350px;
+    margin: 0px 0px;
     height: 800px;
 }
 
@@ -370,6 +370,11 @@ footer {
     .section-9 {
         padding: 20px;
     }
+    .footer-flex,.footer-icons{padding: 10px;}
+    .footer{padding: 0;}
+    .section-6 ,.section-5{margin: 180px 0px;
+        
+    ;}
 }
 
 
@@ -514,3 +519,20 @@ footer {
     }
 
 }
+
+@media screen and (min-width:992px) and (max-width: 1280px){.section-7-img-2 {
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+
+.section-7-img-3 {
+    position: absolute;
+    top: 0;
+}
+
+.section-7-img-1 {
+    position: absolute;
+    width: 1300px;
+    bottom: 10px;
+}}
