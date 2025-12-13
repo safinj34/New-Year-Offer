@@ -322,7 +322,7 @@ footer {
     
 
 
-
+.section-7{height: 500px}
     .section-8-div-1 {
         text-align: left;
         margin: 0px 30px;
@@ -350,9 +350,10 @@ footer {
     }
     .footer-flex,.footer-icons{padding: 10px;}
     .footer{padding: 0;}
-    .section-6 ,.section-5{margin: 180px 0px;
+    .section-6 ,.section-5{margin: 50px 0px;
         
     ;}
+    .section-5-div-1{margin-top: 200px;}
 }
 
 
@@ -439,9 +440,7 @@ footer {
     }
 
 
-    .section-7 {
-        
-    }
+
 
 
     .section-8-div-1 {
@@ -472,4 +471,3 @@ footer {
 
 }
 
-@media screen and (min-width:992px) and (max-width: 1280px){}
