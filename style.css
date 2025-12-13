@@ -136,33 +136,38 @@ body {
     padding: 0px 10%;
 }
 
-.section-7-div {
-    position: relative;
-    margin: 0px 0px;
-    height: 800px;
-}
 
-.section-7-img-2 {
-    position: absolute;
-    right: 0;
-    top: 200px;
-}
-
-.section-7-img-3 {
-    position: absolute;
-    top: 0;
-}
-
-.section-7-img-1 {
-    position: absolute;
-    width: 1300px;
-    bottom: 100px;
-}
 
 .section-6-img1 {
     display: flex;
     gap: 20px;
 }
+
+
+.section-7 {
+    height: 500px;
+    width: 80%;
+    margin: 50px auto;
+
+    background-image:
+        
+        url("./images/Group 75.png"),
+        url("./images/Group 44.png"),
+url("./images/Rectangle 2.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+
+    background-position:
+        center bottom,
+        right center,
+        left bottom;
+
+    background-size:
+        
+        300px,
+        200px,
+        100% 40%;
+}
+
 
 .section-8-div-1 {
     text-align: left;
@@ -314,36 +319,9 @@ footer {
     }
 
 
-    .section-7 {
-        padding-left: 50px;
-    }
+    
 
-    .section-7-div {
-        position: relative;
-        margin: 0px;
-        height: 80px;
-        width: 80px;
-    }
 
-    .section-7-img-2 {
-        position: absolute;
-        left: 0;
-        width: 100px;
-        top: -150px;
-    }
-
-    .section-7-img-3 {
-        position: absolute;
-        left: 0;
-        bottom: 0px;
-        width: 120px;
-    }
-
-    .section-7-img-1 {
-        position: absolute;
-        width: 300px;
-        bottom: 0px;
-    }
 
     .section-8-div-1 {
         text-align: left;
@@ -462,35 +440,9 @@ footer {
 
 
     .section-7 {
-        padding-left: 50px;
+        
     }
 
-    .section-7-div {
-        position: relative;
-        margin: 0px;
-        height: 80px;
-        width: 80px;
-    }
-
-    .section-7-img-2 {
-        position: absolute;
-        left: 0;
-        width: 100px;
-        top: -150px;
-    }
-
-    .section-7-img-3 {
-        position: absolute;
-        left: 0;
-        top: -20px;
-        width: 120px;
-    }
-
-    .section-7-img-1 {
-        position: absolute;
-        width: 600px;
-        bottom: 0px;
-    }
 
     .section-8-div-1 {
         text-align: left;
@@ -520,19 +472,4 @@ footer {
 
 }
 
-@media screen and (min-width:992px) and (max-width: 1280px){.section-7-img-2 {
-    position: absolute;
-    right: 0;
-    top: 200px;
-}
-
-.section-7-img-3 {
-    position: absolute;
-    top: 0;
-}
-
-.section-7-img-1 {
-    position: absolute;
-    width: 1300px;
-    bottom: 10px;
-}}
+@media screen and (min-width:992px) and (max-width: 1280px){}
